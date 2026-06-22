@@ -1,21 +1,13 @@
-public class Calculadora {
+🧮 Calculadora Básica em Java
 
-    public double somar(double a, double b) {
-        return a + b;
-    }
+Este é um projeto simples de calculadora em Java, desenvolvido para fins de estudo e portfólio.
 
-    public double subtrair(double a, double b) {
-        return a - b;
-    }
+🚀 Funcionalidades
+Soma
+Subtração
+Multiplicação
+Divisão (com tratamento de erro para divisão por zero)
 
-    public double multiplicar(double a, double b) {
-        return a * b;
-    }
-
-    public double dividir(double a, double b) {
-        if (b == 0) {
-            throw new IllegalArgumentException("Divisão por zero não é permitida.");
-        }
-        return a / b;
-    }
-}
+📂 Estrutura
+`Calculadora.java`: Classe com métodos matemáticos.
+`Main.java`: Classe principal com interação via console.
