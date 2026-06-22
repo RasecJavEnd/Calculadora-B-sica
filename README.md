@@ -1,2 +1,21 @@
-# Calculadora-B-sica
-Calculadora Básica em Java Este é um projeto simples de calculadora em Java, desenvolvido para fins de estudo e portfólio.
+public class Calculadora {
+
+    public double somar(double a, double b) {
+        return a + b;
+    }
+
+    public double subtrair(double a, double b) {
+        return a - b;
+    }
+
+    public double multiplicar(double a, double b) {
+        return a * b;
+    }
+
+    public double dividir(double a, double b) {
+        if (b == 0) {
+            throw new IllegalArgumentException("Divisão por zero não é permitida.");
+        }
+        return a / b;
+    }
+}
